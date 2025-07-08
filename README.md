@@ -12,6 +12,37 @@ conda activate medichatbot
 pip install -r requirements.txt
 
 python template.py
+
+---
+
+add -e .  ---in--> requirements.txt
+
+
+
+```
+-e . là viết tắt của --editable ., có nghĩa là cài đặt package hiện tại (trong thư mục chứa file requirements.txt) ở chế độ "editable mode" (chế độ có thể chỉnh sửa).
+
+Cụ thể:
+
+Dấu . đại diện cho thư mục hiện tại
+
+Khi bạn chạy pip install -e ., pip sẽ tìm file setup.py hoặc pyproject.toml trong thư mục hiện tại và cài đặt package đó ở chế độ editable
+
+Trong chế độ này, các thay đổi bạn thực hiện trên code sẽ có hiệu lực ngay lập tức mà không cần phải cài đặt lại package
+``` 
+conda activate medichatbot -> kích hoạt venv trc
+
+
+--- Anaconda prompt 
+
+
+
+
+
+
+
+
+pip install -r requirements.txt
 ```
 
 Giải thích một số gói cài trong requirements
