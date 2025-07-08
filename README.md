@@ -1,5 +1,8 @@
 
 ![alt text](image.png)  -> nhớ chọn venv -> slect kernel
+
+
+![alt text](image-1.png)
 anaconda prompt
 ```
 
