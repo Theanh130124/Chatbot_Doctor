@@ -53,6 +53,8 @@ pip install -r requirements.txt
 
 
 ```
+bên helper chọn vào đây để setup venv cho các file python
+
 
 Giải thích một số gói cài trong requirements
 
